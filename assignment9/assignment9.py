@@ -48,7 +48,7 @@ def get_types(dit):
 
     return list
 
-print(get_types(d))
+
 
 
 def get_types_counts(d):
