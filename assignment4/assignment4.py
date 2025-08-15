@@ -35,8 +35,7 @@ def calculate_sgpa(grade1, grade2, grade3):
     total_number_of_subjects = 0
 
     if grade1 != 'nothing':
-        total_number_of_subjects += 1  # increment
-        # Add points based on grade1
+        total_number_of_subjects += 1  
         if grade1 == 'A+':
             total_marks += 4.00
         elif grade1 == 'A':
@@ -63,7 +62,7 @@ def calculate_sgpa(grade1, grade2, grade3):
             total_marks += 0.00
     
     if grade2 != 'nothing':
-        total_number_of_subjects += 1  # increment
+        total_number_of_subjects += 1
         if grade2 == 'A+':
             total_marks += 4.00
         elif grade2 == 'A':
@@ -90,8 +89,7 @@ def calculate_sgpa(grade1, grade2, grade3):
             total_marks += 0.00
 
     if grade3 != 'nothing':
-        total_number_of_subjects += 1  # increment
-        # Add points based on grade3
+        total_number_of_subjects += 1  
         if grade3 == 'A+':
             total_marks += 4.00
         elif grade3 == 'A':
