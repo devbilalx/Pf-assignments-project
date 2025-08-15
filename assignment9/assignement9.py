@@ -40,15 +40,15 @@ d_1 = {
 }
 
 
-# def get_types(dit):
-#     list=[]
+def get_types(dit):
+    list=[]
 
-#     for i in dit:
-#         list.append(i)
+    for i in dit:
+        list.append(i)
 
-#     return list
+    return list
 
-# print(get_types(d))
+print(get_types(d))
 
 
 def get_types_counts(d):
