@@ -21,7 +21,7 @@ def abs(x):
 
 def sqrt(x,guess=0):
     if good_enough(guess,x):
-        return guess
+        return round(guess,5)
     else:
         new_guess=improve_guess(x,guess)
         return sqrt(x,new_guess)
@@ -31,9 +31,9 @@ def sqrt(x,guess=0):
 
 def good_enough(guess,x):
 
-    if abs(guess*guess-x)<0.1:
+    if abs(guess*guess-x)<0.000001:
         return True
     else:
         return False
 
-print(sqrt(2, 3))  
+print(sqrt(25,6))  

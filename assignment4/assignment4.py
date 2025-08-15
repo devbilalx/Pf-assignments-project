@@ -1,7 +1,7 @@
 
 # Assignment 4
 
-
+# Part a
 def get_grade(marks):
 
     if marks>=90:
@@ -28,6 +28,9 @@ def get_grade(marks):
         return "D"
     else:
         return "F"
+    
+
+# Part b
     
 
 def calculate_sgpa(grade1, grade2, grade3):
