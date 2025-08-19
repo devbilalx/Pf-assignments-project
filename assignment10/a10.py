@@ -18,4 +18,6 @@ def line_count(dir,name,countEmpty=False):
 
 
 
+line_count('ictt/assignment10','essay.txt')
+
 
