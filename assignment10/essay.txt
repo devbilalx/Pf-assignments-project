@@ -18,7 +18,7 @@ Bad: [php] session doubt
 Good: How can I redirect users to different pages based on session data in PHP?
 Bad: android if else problems
 Good: Why does str == "value" evaluate to false when str is set to "value"?
-Introduce the problem before you post any code
+Introduce the problem before you post any code 
 
 In the body of your question, start by expanding on the summary you put in the title. Explain how you encountered the problem you're trying to solve, and any difficulties that have prevented you from solving it yourself. The first paragraph in your question is the second thing most readers will see, so make it as engaging and informative as possible.
 

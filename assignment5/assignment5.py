@@ -21,3 +21,4 @@ def output_factor(number):
             print(i)
     
 output_factor(10)
+ 

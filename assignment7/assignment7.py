@@ -109,4 +109,4 @@ def gradeEQ(grade1):
 
 print(calculate_sgpa_weighted("C-", 4))
     
-    
+     
