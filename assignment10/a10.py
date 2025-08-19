@@ -1,7 +1,6 @@
-
-
-
 import os
+
+# Part A + B
 
 def line_count(dir,name,countEmpty=False):
     fileName=os.path.join(dir,name)
@@ -16,7 +15,7 @@ def line_count(dir,name,countEmpty=False):
         
     return count
 
-
+# Part C + D
 def character_count(dir,name,skipSpaces=False):
 
     fileName=os.path.join(dir,name)
@@ -32,11 +31,29 @@ def character_count(dir,name,skipSpaces=False):
     
     return charCount
 
+# Part E
+
+def move_lines(inputPath,outputPath,lines_to_move):
+    try:
+        fileToRead=inputPath
+        fileToWrite=outputPath
+        with open( fileToRead,'r') as f:
+            with open(fileToWrite,'w') as w:
+                count=0
+                for eachLine in f:
+                    count+=1
+                    if count<=lines_to_move:
+                        w.write(eachLine)
+    except:
+        FileNotFoundError
+        print("File Directory to read data is wrong")
 
 
 
 
 
 
-# line_count('ictt//assignment10','essay.txt',True)
-# print(character_count('ictt//assignment10','essay.txt',True))
+# print(line_count('ictt//assignment10','essay.txt',False))
+# print(character_count('ictt//assignment10','essay.txt',False))
+
+# move_lines('ictt\\assignment10\\essay.txt','ictt\\assignment10\\new.txt',11)

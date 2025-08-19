@@ -126,3 +126,4 @@ def calculate_sgpa(grade1, grade2, grade3):
 
 print(calculate_sgpa('A','A','A'))
 
+
