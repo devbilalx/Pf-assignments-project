@@ -53,7 +53,7 @@ def move_lines(inputPath,outputPath,lines_to_move):
 
 
 
-# print(line_count('ictt//assignment10','essay.txt',False))
-# print(character_count('ictt//assignment10','essay.txt',False))
+# print(line_count('itc//assignment10','essay.txt',False))
+# print(character_count('itc//assignment10','essay.txt',False))
 
-# move_lines('ictt\\assignment10\\essay.txt','ictt\\assignment10\\new.txt',11)
+# move_lines('itc\\assignment10\\essay.txt','itc\\assignment10\\new.txt',11)
