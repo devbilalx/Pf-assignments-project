@@ -10,4 +10,4 @@ These solutions were created after completing the *Programming Fundamentals* cou
 ---
 
 ## Contributing  
-If you find any errors in the solutions or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome!
+If you find any errors in the solutions or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome
