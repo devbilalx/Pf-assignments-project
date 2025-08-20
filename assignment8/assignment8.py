@@ -1,4 +1,4 @@
-### Assignment 8 ###
+# Assignment 8 
 
 def find_cumulative_marks(result):
     newList=[]

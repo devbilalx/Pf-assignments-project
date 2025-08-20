@@ -1,5 +1,4 @@
-##################        ASSIGNMENT 7 ###########################
-
+#  ASSIGNMENT 7
 
 def calcualte_sgpa(singleList):
     totalMarks=0
