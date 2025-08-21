@@ -1,0 +1,1 @@
+output_factor(10)
